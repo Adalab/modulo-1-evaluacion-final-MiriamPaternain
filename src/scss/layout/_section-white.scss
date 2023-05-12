@@ -1,0 +1,36 @@
+.sectionwhite{
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    gap: 10px;
+    padding: 20px;
+
+    &__insomnia{
+        width: 100%;
+        color: $lightblue;
+        font-size: 1rem;
+    }
+
+    &__title{
+        width: 100%;
+        font-family: $font-title;
+        font-size: 2rem;
+        color: $colorblack;
+    }
+
+    &__text{
+        font-size: 1.2rem;
+        line-height: 18px;
+        color: $colorgrey;
+    }
+
+    &__button{
+        width: 70px;
+        height: 40px;
+        border-radius: 22.5px;
+        background-color: $colorwhite;
+        border: solid 2px $colornaranja;
+        color: $colornaranja;
+        margin-top: 10px;
+    }
+}
