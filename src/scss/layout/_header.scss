@@ -4,7 +4,9 @@
     background-image:url(../images/cover.jpg);
     background-repeat: no-repeat;
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
     
 
     &__nav{
@@ -25,27 +27,37 @@
         }
         
     }
+    &__container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        &--title {
+            max-width: 50px;
+            display: flex;
+            justify-content: center;
+            text-align: center;
+            color: $colorwhite;
+            font-size: 2.6rem;
+            font-family: $font-title;
+            }
+
+        &--text {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            color: $colorwhite;
+            font-size: 1rem;
+            margin-top: 15px;
+        }
+    }
     
-    &__title{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        color: $colorwhite;
-        font-size: 2.6rem;
-        font-family: RobotoSlab;
-
-
-    }
-
-    &__text{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        color: $colorwhite;
-    }
-
     &__button{
         width: 45px;
         height: 45px;
+        border-radius: 50%;
+        border: none;
+        transform: translateY(150PX);
     }
 }
