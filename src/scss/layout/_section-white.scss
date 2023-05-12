@@ -33,5 +33,10 @@
         color: $colornaranja;
         margin-top: 10px;
         text-decoration: none;
+            &--link{
+                color: $colornaranja;
+                text-decoration: none;
+                font-family: "Roboto";
+            }
     }
 }

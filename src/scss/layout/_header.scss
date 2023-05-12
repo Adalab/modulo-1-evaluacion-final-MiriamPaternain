@@ -4,6 +4,7 @@
     background-image:url(../images/cover.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
     background-image: center;
     display: flex;
     flex-direction: column;
@@ -62,7 +63,6 @@
             border-radius: 50%;
             border: none;
             transform: translateY(50PX);
-            
             
         }
     }
