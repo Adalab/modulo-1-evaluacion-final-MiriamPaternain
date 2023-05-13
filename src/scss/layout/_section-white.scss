@@ -3,7 +3,8 @@
     flex-direction: column;
     justify-content: right;
     gap: 10px;
-    padding: 20px;
+    padding: 30px;
+    margin: 10px 0 20px 0;
 
     &__insomnia{
         width: 100%;
@@ -42,4 +43,19 @@
                 font-family: "Roboto";
             }
     }
+}
+
+@media screen and(min-width: 768px){
+.sectionwhite{
+    margin: 10px 20px 30px 20px;
+}
+}
+
+@media screen and (min-width: 1200px){
+.sectionwhite{
+    margin: 20px 275px 30px 275px;
+    &__button{
+        width: 160px;
+    }
+}
 }
