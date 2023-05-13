@@ -48,7 +48,7 @@
         
             &--link{
                 color: $colorwhite;
-                font-size: 1rem;
+                font-size: 1.7rem;
                 text-decoration: none;
             }
     }
@@ -173,9 +173,6 @@
             grid-column: 1/4;
             grid-row: 3;
             width: 255px;
-            &--link{
-                font-size: 2rem;
-            }
         }
 
         &__button2 {
