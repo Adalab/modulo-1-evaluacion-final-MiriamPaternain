@@ -11,18 +11,25 @@
 
 
 
-    &__article1 {
-
-        margin-top: 30px;
-        line-height: 16px;
-
+    &__list1 {
+        font-size: 1.2rem;
+        margin-top: 55px;
+        line-height: 20px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        &--link1{
+            color: $colorwhite;
+            text-decoration: none;
+        }
 
     }
 
-    &__article2 {
-        margin-top: 20px;
-        line-height: 16px;
+    &__list2 {
+        margin-top: 25px;
+        line-height: 20px;
         width: 100%;
+        font-size: 1.2rem;
         display: flex;
         flex-direction: column;
 
@@ -33,12 +40,14 @@
     }
 
     &__2023 {
-        margin-top: 20px;
+        margin-top: 25px;
+        font-size: 1.2rem;
     }
 
     &__text {
-        margin-top: 5px;
+        margin-top: 15px;
         margin-bottom: 30px;
+        font-size: 1.2rem;
 
         &--heart {
             color: $colornaranja;

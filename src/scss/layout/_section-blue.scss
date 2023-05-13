@@ -28,7 +28,7 @@
         grid-row-end: 4;
     }
 
-    &__button{
+    &__button1{
         grid-row-start: 4;
         grid-row-end: 5;
         width: 185px;
@@ -43,9 +43,19 @@
         
             &--link{
                 color: $colorwhite;
+                font-size: 17px;
                 text-decoration: none;
             }
     }
+    &__button2 { 
+        width: 45px;
+        height: 45px;
+        border-radius: 50%;
+        background-color: $colorwhite;
+        border: none;
+        margin: auto;
+        transform: translateY(20px);
+        }
 }
 
 .article__reason{
@@ -59,14 +69,16 @@
         color: $colorblack;
         font-family: $font-title;
         margin-bottom: 15px;
+        font-size: 1.5rem;
     }
 
     &--text{
         color: $colorblack;
-        margin-left: 100px;
-        margin-right: 100px;
+        margin-left: 75px;
+        margin-right: 75px;
         text-align: center;
-        line-height: 15px;
+        line-height: 30px;
+        font-size: 1.5rem;
 
     }
 }

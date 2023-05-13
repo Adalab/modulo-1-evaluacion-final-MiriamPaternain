@@ -43,7 +43,7 @@
             justify-content: center;
             text-align: center;
             color: $colorwhite;
-            font-size: 4rem;
+            font-size: 3.8rem;
             line-height: 50px;
             font-family: $font-title;
             }
@@ -62,8 +62,11 @@
             height: 45px;
             border-radius: 50%;
             border: none;
-            transform: translateY(50PX);
-            
+            transform: translateY(50PX);  
+        }
+
+        &--icoarrow{
+            transform: translateY(4PX);
         }
     }
     

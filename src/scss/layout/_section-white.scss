@@ -8,7 +8,7 @@
     &__insomnia{
         width: 100%;
         color: $lightblue;
-        font-size: 1rem;
+        font-size: 1.2rem;
     }
 
     &__title{
@@ -16,11 +16,12 @@
         font-family: $font-title;
         font-size: 2rem;
         color: $colorblack;
+        line-height: 26px;
     }
 
     &__text{
-        font-size: 1.2rem;
-        line-height: 18px;
+        font-size: 1.5rem;
+        line-height: 24px;
         color: $colorgrey;
     }
 
@@ -31,10 +32,12 @@
         background-color: $colorwhite;
         border: solid 2px $colornaranja;
         color: $colornaranja;
+        
         margin-top: 10px;
         text-decoration: none;
             &--link{
                 color: $colornaranja;
+                font-size: 1.8rem;
                 text-decoration: none;
                 font-family: "Roboto";
             }
