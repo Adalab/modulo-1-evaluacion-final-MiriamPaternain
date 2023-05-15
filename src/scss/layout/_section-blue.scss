@@ -9,11 +9,12 @@
     &__title{
         width: 100%;
         color: $colorblack;
-        text-align: center;
+        text-align: start;
         font-family: $font-title;
         font-size: 2rem;
         margin: auto;
         margin-top: 30px;
+        text-align: center;
         grid-row-start: 1;
         grid-row-end: 2;
     }
@@ -107,8 +108,8 @@
 
     &--text{
         color: $colorblack;
-        margin-left: 75px;
-        margin-right: 75px;
+        width: 170px;
+        height: 100px;
         text-align: center;
         line-height: 30px;
         font-size: 1.5rem;
