@@ -120,6 +120,10 @@
         grid-column: 1/4;
         grid-row: 3;
         width: 210px;
+        a:hover{
+            color: $darkgreyblue;
+            font-size: 2rem;
+        }
     }
 
     &__button2{
